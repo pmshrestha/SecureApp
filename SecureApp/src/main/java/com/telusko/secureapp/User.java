@@ -5,7 +5,7 @@ import javax.persistence.Id;
 
 @Entity
 public class User {
-	
+	//to connect with data base
 	@Id
 	private long id;
 	private String username;
